@@ -1,0 +1,75 @@
+PS C:\Users\Ana Clara\Documents\1. CEFET MG\9. SISTEMAS DISTRIBUIDOS\TRABALHOS\TRABALHO PRATICO 2> py 4peer_fileC.py peer1
+[08:53:46] [Fragmentador] Arquivo original fragmentado em 5120 blocos.
+[08:53:46] [Inicialização] Peer iniciado em 127.0.0.1:5000
+[08:53:46] [Config] Vizinhos estáticos: [('127.0.0.1', 5001)]
+[08:53:46] [Servidor] Ouvindo em 127.0.0.1:5000
+[08:54:05] [Servidor] Enviou bloco 0 para ('127.0.0.1', 59386)
+[08:54:05] [Servidor] ...
+[08:54:08] [Servidor] Enviou bloco 5119 para ('127.0.0.1', 56318)
+
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+
+PS C:\Users\Ana Clara\Documents\1. CEFET MG\9. SISTEMAS DISTRIBUIDOS\TRABALHOS\TRABALHO PRATICO 2> py 4peer_fileC.py peer2
+[08:53:52] [Inicialização] Peer iniciado em 127.0.0.1:5001
+[08:53:52] [Config] Vizinhos estáticos: [('127.0.0.1', 5000), ('127.0.0.1', 5002)]
+[08:53:52] [Servidor] Ouvindo em 127.0.0.1:5001
+[08:53:52] [Leecher] Metadado carregado de file_C_20MB.txt
+[08:53:52] [Leecher] Esperando 5120 blocos (4096 bytes cada).
+[08:54:05] [Cliente] Recebeu bloco 0 de 127.0.0.1:5000
+[08:54:05] [Cliente] ...
+[08:54:08] [Cliente] Recebeu bloco 5119 de 127.0.0.1:5000
+[08:54:09] [Peer] Arquivo final salvo como Arquivo_Peer_5001_file_C_20MB.txt
+[08:54:09] [Peer] Download completo!
+[08:54:09] [Checksum] Hash Original: 1b2f4a35a522d1891759226ed199c85f8d9d1f5f8d40566ce5e66fa69072a710
+[08:54:09] [Checksum] Hash Recebido: 1b2f4a35a522d1891759226ed199c85f8d9d1f5f8d40566ce5e66fa69072a710
+[08:54:09] [Integridade] Arquivo verificado com sucesso (SHA-256 idêntico ao metadado).
+--------------------------------------------------
+[08:54:10] [Servidor] Enviou bloco 0 para ('127.0.0.1', 58432)
+[08:54:10] [Servidor] ...
+[08:54:13] [Servidor] Enviou bloco 5119 para ('127.0.0.1', 52257)
+
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+
+PS C:\Users\Ana Clara\Documents\1. CEFET MG\9. SISTEMAS DISTRIBUIDOS\TRABALHOS\TRABALHO PRATICO 2> py 4peer_fileC.py peer3
+[08:53:59] [Inicialização] Peer iniciado em 127.0.0.1:5002
+[08:53:59] [Config] Vizinhos estáticos: [('127.0.0.1', 5001), ('127.0.0.1', 5003)]
+[08:53:59] [Servidor] Ouvindo em 127.0.0.1:5002
+[08:53:59] [Leecher] Metadado carregado de file_C_20MB.txt
+[08:53:59] [Leecher] Esperando 5120 blocos (4096 bytes cada).
+[08:54:10] [Cliente] Recebeu bloco 0 de 127.0.0.1:5001
+[08:54:10] [Cliente] ...
+[08:54:11] [Servidor] Enviou bloco 0 para ('127.0.0.1', 59860)
+[08:54:11] [Servidor] ...
+[08:54:13] [Cliente] Recebeu bloco 5119 de 127.0.0.1:5001
+[08:54:13] [Peer] Arquivo final salvo como Arquivo_Peer_5002_file_C_20MB.txt
+[08:54:13] [Peer] Download completo!
+[08:54:13] [Checksum] Hash Original: 1b2f4a35a522d1891759226ed199c85f8d9d1f5f8d40566ce5e66fa69072a710
+[08:54:13] [Checksum] Hash Recebido: 1b2f4a35a522d1891759226ed199c85f8d9d1f5f8d40566ce5e66fa69072a710
+[08:54:13] [Integridade] Arquivo verificado com sucesso (SHA-256 idêntico ao metadado).
+--------------------------------------------------
+[08:54:14] [Servidor] ...
+[08:54:14] [Servidor] Enviou bloco 5119 para ('127.0.0.1', 53669)
+
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+
+PS C:\Users\Ana Clara\Documents\1. CEFET MG\9. SISTEMAS DISTRIBUIDOS\TRABALHOS\TRABALHO PRATICO 2> py 4peer_fileC.py peer4
+[08:54:06] [Inicialização] Peer iniciado em 127.0.0.1:5003
+[08:54:06] [Config] Vizinhos estáticos: [('127.0.0.1', 5002)]
+[08:54:06] [Servidor] Ouvindo em 127.0.0.1:5003
+[08:54:06] [Leecher] Metadado carregado de file_C_20MB.txt
+[08:54:06] [Leecher] Esperando 5120 blocos (4096 bytes cada).
+[08:54:11] [Cliente] Recebeu bloco 0 de 127.0.0.1:5002
+[08:54:11] [Cliente] ...
+[08:54:14] [Cliente] Recebeu bloco 5119 de 127.0.0.1:5002
+[08:54:14] [Peer] Arquivo final salvo como Arquivo_Peer_5003_file_C_20MB.txt
+[08:54:14] [Peer] Download completo!
+[08:54:14] [Checksum] Hash Original: 1b2f4a35a522d1891759226ed199c85f8d9d1f5f8d40566ce5e66fa69072a710
+[08:54:14] [Checksum] Hash Recebido: 1b2f4a35a522d1891759226ed199c85f8d9d1f5f8d40566ce5e66fa69072a710
+[08:54:14] [Integridade] Arquivo verificado com sucesso (SHA-256 idêntico ao metadado).
+--------------------------------------------------
