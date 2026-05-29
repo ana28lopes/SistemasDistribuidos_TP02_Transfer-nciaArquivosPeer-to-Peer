@@ -1,0 +1,86 @@
+PS C:\Users\Ana Clara\Documents\1. CEFET MG\9. SISTEMAS DISTRIBUIDOS\TRABALHOS\TRABALHO PRATICO 2> py 4peer_fileA.py peer1 
+[08:36:43] [Fragmentador] Arquivo original fragmentado em 5 blocos.
+[08:36:43] [Inicialização] Peer iniciado em 127.0.0.1:5000
+[08:36:43] [Config] Vizinhos estáticos: [('127.0.0.1', 5001)]
+[08:36:43] [Servidor] Ouvindo em 127.0.0.1:5000
+[08:37:14] [Servidor] Enviou bloco 0 para ('127.0.0.1', 60018)
+[08:37:14] [Servidor] Enviou bloco 1 para ('127.0.0.1', 60019)
+[08:37:14] [Servidor] Enviou bloco 2 para ('127.0.0.1', 60020)
+[08:37:14] [Servidor] Enviou bloco 3 para ('127.0.0.1', 60021)
+[08:37:14] [Servidor] Enviou bloco 4 para ('127.0.0.1', 60022)
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+PS C:\Users\Ana Clara\Documents\1. CEFET MG\9. SISTEMAS DISTRIBUIDOS\TRABALHOS\TRABALHO PRATICO 2> py 4peer_fileA.py peer2
+[08:37:03] [Inicialização] Peer iniciado em 127.0.0.1:5001
+[08:37:03] [Config] Vizinhos estáticos: [('127.0.0.1', 5000), ('127.0.0.1', 5002)]
+[08:37:03] [Servidor] Ouvindo em 127.0.0.1:5001
+[08:37:03] [Leecher] Metadado carregado de file_A_20KB.txt
+[08:37:03] [Leecher] Esperando 5 blocos (4096 bytes cada).
+[08:37:14] [Cliente] Recebeu bloco 0 de 127.0.0.1:5000
+[08:37:14] [Cliente] Recebeu bloco 1 de 127.0.0.1:5000
+[08:37:14] [Cliente] Recebeu bloco 2 de 127.0.0.1:5000
+[08:37:14] [Cliente] Recebeu bloco 3 de 127.0.0.1:5000
+[08:37:14] [Cliente] Recebeu bloco 4 de 127.0.0.1:5000
+[08:37:14] [Peer] Arquivo final salvo como Arquivo_Peer_5001_file_A_20KB.txt
+[08:37:14] [Peer] Download completo!
+[08:37:14] [Checksum] Hash Original: a85c63343733ab24d8cddee5549aee4d5026fde9cc539cbacaf418230984a63f
+[08:37:14] [Checksum] Hash Recebido: a85c63343733ab24d8cddee5549aee4d5026fde9cc539cbacaf418230984a63f
+[08:37:14] [Integridade] Arquivo verificado com sucesso (SHA-256 idêntico ao metadado).
+--------------------------------------------------
+[08:37:26] [Servidor] Enviou bloco 0 para ('127.0.0.1', 60038)
+[08:37:26] [Servidor] Enviou bloco 1 para ('127.0.0.1', 60039)
+[08:37:26] [Servidor] Enviou bloco 2 para ('127.0.0.1', 60040)
+[08:37:26] [Servidor] Enviou bloco 3 para ('127.0.0.1', 60041)
+[08:37:26] [Servidor] Enviou bloco 4 para ('127.0.0.1', 60042)
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+PS C:\Users\Ana Clara\Documents\1. CEFET MG\9. SISTEMAS DISTRIBUIDOS\TRABALHOS\TRABALHO PRATICO 2> py 4peer_fileA.py peer3
+[08:37:16] [Inicialização] Peer iniciado em 127.0.0.1:5002
+[08:37:16] [Config] Vizinhos estáticos: [('127.0.0.1', 5001), ('127.0.0.1', 5003)]
+[08:37:16] [Servidor] Ouvindo em 127.0.0.1:5002
+[08:37:16] [Leecher] Metadado carregado de file_A_20KB.txt
+[08:37:16] [Leecher] Esperando 5 blocos (4096 bytes cada).
+[08:37:26] [Cliente] Recebeu bloco 0 de 127.0.0.1:5001
+[08:37:26] [Cliente] Recebeu bloco 1 de 127.0.0.1:5001
+[08:37:26] [Cliente] Recebeu bloco 2 de 127.0.0.1:5001
+[08:37:26] [Cliente] Recebeu bloco 3 de 127.0.0.1:5001
+[08:37:26] [Cliente] Recebeu bloco 4 de 127.0.0.1:5001
+[08:37:26] [Peer] Arquivo final salvo como Arquivo_Peer_5002_file_A_20KB.txt
+[08:37:26] [Peer] Download completo!
+[08:37:26] [Checksum] Hash Original: a85c63343733ab24d8cddee5549aee4d5026fde9cc539cbacaf418230984a63f
+[08:37:26] [Checksum] Hash Recebido: a85c63343733ab24d8cddee5549aee4d5026fde9cc539cbacaf418230984a63f
+[08:37:26] [Integridade] Arquivo verificado com sucesso (SHA-256 idêntico ao metadado).
+--------------------------------------------------
+[08:37:27] [Servidor] Enviou bloco 0 para ('127.0.0.1', 60043)
+[08:37:27] [Servidor] Enviou bloco 1 para ('127.0.0.1', 60044)
+[08:37:27] [Servidor] Enviou bloco 2 para ('127.0.0.1', 60045)
+[08:37:27] [Servidor] Enviou bloco 3 para ('127.0.0.1', 60046)
+[08:37:27] [Servidor] Enviou bloco 4 para ('127.0.0.1', 60047)
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+PS C:\Users\Ana Clara\Documents\1. CEFET MG\9. SISTEMAS DISTRIBUIDOS\TRABALHOS\TRABALHO PRATICO 2> py 4peer_fileA.py peer4
+[08:37:25] [Inicialização] Peer iniciado em 127.0.0.1:5003
+[08:37:25] [Config] Vizinhos estáticos: [('127.0.0.1', 5002)]
+[08:37:25] [Servidor] Ouvindo em 127.0.0.1:5003
+[08:37:25] [Leecher] Metadado carregado de file_A_20KB.txt
+[08:37:25] [Leecher] Esperando 5 blocos (4096 bytes cada).
+[08:37:27] [Cliente] Recebeu bloco 0 de 127.0.0.1:5002
+[08:37:27] [Cliente] Recebeu bloco 1 de 127.0.0.1:5002
+[08:37:27] [Cliente] Recebeu bloco 2 de 127.0.0.1:5002
+[08:37:27] [Cliente] Recebeu bloco 3 de 127.0.0.1:5002
+[08:37:27] [Cliente] Recebeu bloco 4 de 127.0.0.1:5002
+[08:37:27] [Peer] Arquivo final salvo como Arquivo_Peer_5003_file_A_20KB.txt
+[08:37:27] [Peer] Download completo!
+[08:37:27] [Checksum] Hash Original: a85c63343733ab24d8cddee5549aee4d5026fde9cc539cbacaf418230984a63f
+[08:37:27] [Checksum] Hash Recebido: a85c63343733ab24d8cddee5549aee4d5026fde9cc539cbacaf418230984a63f
+[08:37:27] [Integridade] Arquivo verificado com sucesso (SHA-256 idêntico ao metadado).
+--------------------------------------------------
