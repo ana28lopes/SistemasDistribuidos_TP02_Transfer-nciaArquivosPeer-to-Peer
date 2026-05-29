@@ -1,0 +1,15 @@
+PS C:\Users\Ana Clara\Documents\1. CEFET MG\9. SISTEMAS DISTRIBUIDOS\TRABALHOS\TRABALHO PRATICO 2> py peer_fileB.py leecher
+[08:30:08] [Inicialização] Peer iniciado em 127.0.0.1:5001
+[08:30:08] [Config] Vizinhos configurados estaticamente: [('127.0.0.1', 5000)]
+[08:30:08] [Servidor] Ouvindo em 127.0.0.1:5001
+[08:30:08] [Leecher] Metadado carregado de file_B_1MB.txt
+[08:30:08] [Leecher] Esperando 1024 blocos (1024 bytes cada).
+[08:30:09] [Cliente] Recebeu bloco 0 de 127.0.0.1:5000
+[08:30:09] [Cliente] ...
+[08:30:11] [Cliente] Recebeu bloco 1023 de 127.0.0.1:5000
+[08:30:11] [Peer] Arquivo final salvo como ArquivoBaixadoPeloPort_5001_file_B_1MB.txt
+[08:30:11] [Peer] Download completo!
+[08:30:11] [Checksum] Hash Original: 674eafc4ed1d4dc05fb747c7816c8c68349e4cf23830608a9e01f34b39fe1434
+[08:30:11] [Checksum] Hash Recebido: 674eafc4ed1d4dc05fb747c7816c8c68349e4cf23830608a9e01f34b39fe1434
+[08:30:11] [Integridade] Arquivo verificado com sucesso (SHA-256 idêntico ao metadado).
+--------------------------------------------------

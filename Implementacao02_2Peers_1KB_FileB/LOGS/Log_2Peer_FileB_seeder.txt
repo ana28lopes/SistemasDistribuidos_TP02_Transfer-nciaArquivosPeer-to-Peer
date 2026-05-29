@@ -1,0 +1,8 @@
+PS C:\Users\Ana Clara\Documents\1. CEFET MG\9. SISTEMAS DISTRIBUIDOS\TRABALHOS\TRABALHO PRATICO 2> py peer_fileB.py seeder
+[08:30:04] [Fragmentador] Arquivo original fragmentado em 1024 blocos.
+[08:30:04] [Inicialização] Peer iniciado em 127.0.0.1:5000
+[08:30:04] [Config] Vizinhos configurados estaticamente: [('127.0.0.1', 5001)]
+[08:30:04] [Servidor] Ouvindo em 127.0.0.1:5000
+[08:30:09] [Servidor] Enviou bloco 0 para ('127.0.0.1', 64839)
+[08:30:09] [Servidor] ...
+[08:30:11] [Servidor] Enviou bloco 1023 para ('127.0.0.1', 49480)
