@@ -1,0 +1,22 @@
+PS C:\Users\Ana Clara\Documents\1. CEFET MG\9. SISTEMAS DISTRIBUIDOS\TRABALHOS\TRABALHO PRATICO 2> py peer_fileA.py leecher
+[08:25:45] [Inicialização] Peer iniciado em 127.0.0.1:5001
+[08:25:45] [Config] Vizinhos configurados estaticamente: [('127.0.0.1', 5000)]
+[08:25:45] [Servidor] Ouvindo em 127.0.0.1:5001
+[08:25:45] [Leecher] Metadado carregado de file_A_10KB.txt
+[08:25:45] [Leecher] Esperando 10 blocos (1024 bytes cada).
+[08:25:46] [Cliente] Recebeu bloco 0 de 127.0.0.1:5000
+[08:25:46] [Cliente] Recebeu bloco 1 de 127.0.0.1:5000
+[08:25:46] [Cliente] Recebeu bloco 2 de 127.0.0.1:5000
+[08:25:46] [Cliente] Recebeu bloco 3 de 127.0.0.1:5000
+[08:25:46] [Cliente] Recebeu bloco 4 de 127.0.0.1:5000
+[08:25:46] [Cliente] Recebeu bloco 5 de 127.0.0.1:5000
+[08:25:46] [Cliente] Recebeu bloco 6 de 127.0.0.1:5000
+[08:25:46] [Cliente] Recebeu bloco 7 de 127.0.0.1:5000
+[08:25:46] [Cliente] Recebeu bloco 8 de 127.0.0.1:5000
+[08:25:46] [Cliente] Recebeu bloco 9 de 127.0.0.1:5000
+[08:25:46] [Peer] Arquivo final salvo como ArquivoBaixadoPeloPort_5001_file_A_10KB.txt
+[08:25:46] [Peer] Download completo!
+[08:25:46] [Checksum] Hash Original: 4d3036c27e39559377c36ba8313b989ae909c0854796092f71d5970dc294bef6
+[08:25:46] [Checksum] Hash Recebido: 4d3036c27e39559377c36ba8313b989ae909c0854796092f71d5970dc294bef6
+[08:25:46] [Integridade] Arquivo verificado com sucesso (SHA-256 idêntico ao metadado).
+--------------------------------------------------
